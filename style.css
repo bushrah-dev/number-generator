@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: chocolate;
+}
+.container{
+    width: 400px;
+    height: 250px;
+    display: block;
+    background: wheat;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+    border-radius: 12px;
+}
+.random-gen{
+    padding: 40px;
+}
+.header-one{
+    margin-top: 5px;
+    text-align: center;
+}
+#gen-btn{
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 10px 50px;
+    height: 50px;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: inherit;
+    cursor: pointer;
+}
+#random-num{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+
+}
